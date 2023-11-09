@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Planilha de membros</title>
+    <link rel="stylesheet" href="style3.css">
+  </head>
+  <body>
+
+    <div>
+      <h1>Aula 2</h1>
+    </div>
+
+    <div id="div-name">
+      <label for="name">Nome:</label>
+      <br/>
+      <input type="text" name="" id="input-name">
+    </div>
+
+    <div id="div-age">
+      <label for="age">Idade:</label>
+      <br>
+      <input type="number" name="" id="input-age">
+    </div>
+
+    <div id="div-sex">
+      <label for="sex">Sexo:</label>
+      <br>
+      <input type="radio" name="gender" id="gender-masculine" class="sex"> Masculine
+      <br>
+      <input type="radio" name="gender" id="gender-feminine" class="sex"> Feminine
+    </div>
+
+    <div id="div-submit">
+      <button type="submit" id="submit" onclick="addTable()">Enviar</button>
+    </div>
+
+    <hr>
+
+    <div>
+      <p id="hideTable" onclick="ocultTable()">Ocultar tabela</p>
+    </div>
+
+    <div>
+      <table id="myTable">
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Sexo</th>
+      </tr>
+      </table>
+    </div>
+  </body>
+
+
+
+  <script src="script3.js"></script>
+</html>
