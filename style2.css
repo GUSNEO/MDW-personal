@@ -1,0 +1,189 @@
+body {
+background-color: #3598dc;
+display: flex;
+flex-direction: column;
+margin: 0px;
+padding: 0px;
+}
+.termos {
+color: blue;
+text-align: middle    ;
+margin-top: 0px;
+margin-left: 0.4rem;
+}
+hr.solid {
+border-top: 3px solid black;
+width: 100%;
+}
+a {
+color: white;
+text-decoration: none;
+margin: 1rem;
+}
+.div2 {
+top: 0;
+left: 0;
+z-index: 1;
+display: flex;
+flex-direction: line;
+background-color: #333333;
+margin: 0px;
+padding: 0px;
+border-radius: 0px;
+width: 100%;
+height: 3rem;
+align-items: center;
+}
+h1 {
+color: #333333;
+margin-right: 20px;
+font-style: Montserrat;
+margin-bottom: 0px;
+}
+h2 {
+color: white;
+margin-right: 20px;
+margin-left: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+h3 {
+color: #999999;
+margin-bottom: 0px;
+font-style: Montserrat;
+}
+hr {
+    padding: 0px;
+    margin: 0px;
+}
+.h3_1 {
+color: black;
+margin: 5px;
+padding: auto;
+font-family: Montserrat;
+}
+div {
+background-color: white;
+margin: 20px;
+padding: 10px;
+border-radius: 5px;
+width: 100px;
+box-sizing: border-box;
+}
+.center {
+display: flex;
+flex-direction: column;
+border: 5px solid white;
+padding: 10px;
+box-sizing: border-box;
+margin: auto;
+width: fit-content;
+font-family: Montserrat;
+}
+
+#form-container {
+    flex-direction: column;
+    width: fit-content;
+    margin: 1rem auto 1rem auto;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+input {
+width: 90%;
+border: 1px solid transparent;
+padding: 5px;
+margin: 5px;
+background-color: #f2f2f2;
+margin-top: 0px;
+
+}
+.inputbox {
+position: left;
+border: 1px solid transparent;
+padding: 5px;
+background-color: #f2f2f2;
+position: top;
+margin-top: 0px;
+padding-top: 0px;
+}
+
+.inputbox {
+width: 1rem;
+}
+
+.input-container {
+display: flex;
+width: fit-content;
+/* justify-content: left;? */
+align-items: flex-start;
+margin-bottom: 5px;
+margin-left: 0px;
+vertical-align: middle;
+margin-top: 5px;
+padding-left: 0px;
+}
+.new-line {
+display: block;
+}
+
+label {
+display: flex;
+width: fit-content;
+vertical-align: middle;
+}
+button {
+background-color: #007bff;
+color: white;
+border-radius: 2px;
+border-color: transparent;
+padding: 8px;
+width: 100px;
+margin-top: 2px;
+}
+
+#div-filltheinput {
+    display: flex;
+    margin: 0;
+    padding-top: 0;
+    gap: 10px;
+
+}
+
+p {
+    gap: 10px;
+}
+
+form i {
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+#div-i {
+    display: flex;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+#div-ano {
+    margin: 10px;
+    width: 100%;
+    padding: auto;
+    margin-left: 0px;
+    padding-left: 0px;
+
+}
+
+#clickableText {
+    margin-top: 0px;
+}
+
+#clickableText2 {
+    margin-top: 0px;
+}
+
+#label-year {
+    display: flex
+    ;
+}
